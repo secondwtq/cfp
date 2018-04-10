@@ -3,5 +3,5 @@
 
 (executable
     ((name cfp)
-    (preprocess (pps (ppx_deriving.std)))
+    (libraries (core cfp_base))
     ))
